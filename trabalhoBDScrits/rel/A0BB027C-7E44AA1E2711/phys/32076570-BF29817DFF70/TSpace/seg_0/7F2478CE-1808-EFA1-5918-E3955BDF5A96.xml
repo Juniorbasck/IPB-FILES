@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="7F2478CE-1808-EFA1-5918-E3955BDF5A96">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>TRABALHO_BD2</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

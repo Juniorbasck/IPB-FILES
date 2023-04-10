@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F28FED81-6F67-D871-95AA-F1B0DD3C164F" schemaObject="90A1EF8F-805F-D46B-286A-6BC0D0321AEB" name="CONSULTA">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>TRABALHO_BD2</sourceObjSchema>
+<sourceObjName>CONSULTA</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSULTA" id="2A0E61CE-FDC7-AE81-86A5-28B9D871F137">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>CONSULTA</sourceObjSchema>
+<sourceObjName>ID_CONSULTA</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_CONSULTA" id="CAEF0D7E-C754-E329-B5EF-D40937D478CA">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>CONSULTA</sourceObjSchema>
+<sourceObjName>DATA_CONSULTA</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_CONSULTA" id="DCBC61C3-477F-74DA-8741-1E04E34FAC9F">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>CONSULTA</sourceObjSchema>
+<sourceObjName>HORA_CONSULTA</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="C632AF63-D85F-2756-E19F-74258C7D6EAE">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>CONSULTA</sourceObjSchema>
+<sourceObjName>ID_PACIENTE</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2805DCE-81DE-7C96-AF55-FF58163F3CE3" referredColumn="26161E81-006E-1790-92AC-0E9FA6746199"/>
+</associations>
+</Column>
+<Column name="ID_MEDICO" id="9EEF03C5-3BAC-031E-B4A9-766EAD597E9E">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>CONSULTA</sourceObjSchema>
+<sourceObjName>ID_MEDICO</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90573E8B-5652-EB6B-D4BF-59519529F27E" referredColumn="D0DE7DEB-77FE-260E-0EBB-F6AAC55B9660"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74F9F986-B2EB-30EC-54A3-A80249E4A7EA" schemaObject="90A1EF8F-805F-D46B-286A-6BC0D0321AEB" name="CONSULTA_PK">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>TRABALHO_BD2</sourceObjSchema>
+<sourceObjName>SYS_C007118</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A0E61CE-FDC7-AE81-86A5-28B9D871F137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DFCFC2E-2233-E156-57E0-3495E82FE646" name="SYS_C007119">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C632AF63-D85F-2756-E19F-74258C7D6EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED596AED-9BA7-0FD9-EB1E-7B91E52D2BA2" name="SYS_C007120">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EEF03C5-3BAC-031E-B4A9-766EAD597E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

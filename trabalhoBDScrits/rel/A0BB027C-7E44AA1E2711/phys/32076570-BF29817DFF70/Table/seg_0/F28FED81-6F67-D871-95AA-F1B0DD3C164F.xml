@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONSULTA" directorySegmentName="seg_0" id="F28FED81-6F67-D871-95AA-F1B0DD3C164F">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<schemaObject>90A1EF8F-805F-D46B-286A-6BC0D0321AEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A4D1FA43-CA32-5C87-66BE-EB27DFB0E754</segment>
+<tableSpace>7F2478CE-1808-EFA1-5918-E3955BDF5A96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_CONSULTA" id="2A0E61CE-FDC7-AE81-86A5-28B9D871F137">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MEDICO" id="9EEF03C5-3BAC-031E-B4A9-766EAD597E9E">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PACIENTE" id="C632AF63-D85F-2756-E19F-74258C7D6EAE">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_CONSULTA" id="CAEF0D7E-C754-E329-B5EF-D40937D478CA">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORA_CONSULTA" id="DCBC61C3-477F-74DA-8741-1E04E34FAC9F">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007119" id="4DFCFC2E-2233-E156-57E0-3495E82FE646">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007120" id="ED596AED-9BA7-0FD9-EB1E-7B91E52D2BA2">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONSULTA_PK" id="74F9F986-B2EB-30EC-54A3-A80249E4A7EA">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<schemaObject>90A1EF8F-805F-D46B-286A-6BC0D0321AEB</schemaObject>
+<segment>DE33A9B9-5CE9-80B0-AA08-BDB7F2BA6DAE</segment>
+<tableSpace>7F2478CE-1808-EFA1-5918-E3955BDF5A96</tableSpace>
+<indexSegment>DE33A9B9-5CE9-80B0-AA08-BDB7F2BA6DAE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

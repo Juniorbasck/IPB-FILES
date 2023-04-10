@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3268B58-01FD-BA6E-3ADE-1184D94B244E" schemaObject="90A1EF8F-805F-D46B-286A-6BC0D0321AEB" name="PACIENTE__EMAIL">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>TRABALHO_BD2</sourceObjSchema>
+<sourceObjName>PACIENTE__EMAIL</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMAIL" id="E32B8B1F-C127-0592-96A1-B55CEF17940D">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>PACIENTE__EMAIL</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PACIENTE" id="5DA71983-0F0E-37A3-C13D-CABD01F7B6D2">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>PACIENTE__EMAIL</sourceObjSchema>
+<sourceObjName>ID_PACIENTE</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F8C42B3-8925-2432-22E5-00E40C945FFB" referredColumn="26161E81-006E-1790-92AC-0E9FA6746199"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48B52749-F0D8-8046-1947-3DC0D65D98A1" schemaObject="90A1EF8F-805F-D46B-286A-6BC0D0321AEB" name="PACIENTE__EMAIL_PK">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>TRABALHO_BD2</sourceObjSchema>
+<sourceObjName>SYS_C007145</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E32B8B1F-C127-0592-96A1-B55CEF17940D"/>
+<colUsage columnID="5DA71983-0F0E-37A3-C13D-CABD01F7B6D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7567ABA7-C4B3-756D-DFD6-9E0A0C1F0AD5" name="SYS_C007146">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DA71983-0F0E-37A3-C13D-CABD01F7B6D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

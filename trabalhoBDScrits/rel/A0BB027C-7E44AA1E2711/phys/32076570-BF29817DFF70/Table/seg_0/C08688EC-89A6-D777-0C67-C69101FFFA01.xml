@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PACIENTE" directorySegmentName="seg_0" id="C08688EC-89A6-D777-0C67-C69101FFFA01">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<schemaObject>90A1EF8F-805F-D46B-286A-6BC0D0321AEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A4D1FA43-CA32-5C87-66BE-EB27DFB0E754</segment>
+<tableSpace>7F2478CE-1808-EFA1-5918-E3955BDF5A96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATA_NASCIMENTO" id="23833806-0EF7-F261-3C15-570CA0566B69">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PACIENTE" id="26161E81-006E-1790-92AC-0E9FA6746199">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_IDENTIDADE" id="29CD5620-0FAD-4DE8-7E80-C70E52AADEAE">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="A6E76B6D-42EC-8199-0589-BAE82E88577D">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENDERECO" id="C107C98C-B05E-2D7E-69FF-8F5CD1759A71">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PACIENTE_PK" id="46B8B857-8076-0DBA-6370-8F0F9258809A">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<schemaObject>90A1EF8F-805F-D46B-286A-6BC0D0321AEB</schemaObject>
+<segment>DE33A9B9-5CE9-80B0-AA08-BDB7F2BA6DAE</segment>
+<tableSpace>7F2478CE-1808-EFA1-5918-E3955BDF5A96</tableSpace>
+<indexSegment>DE33A9B9-5CE9-80B0-AA08-BDB7F2BA6DAE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

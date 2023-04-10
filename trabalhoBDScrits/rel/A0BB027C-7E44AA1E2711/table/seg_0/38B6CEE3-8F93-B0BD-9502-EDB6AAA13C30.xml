@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38B6CEE3-8F93-B0BD-9502-EDB6AAA13C30" schemaObject="90A1EF8F-805F-D46B-286A-6BC0D0321AEB" name="ENFERMEIRA_TELEFONE">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>TRABALHO_BD2</sourceObjSchema>
+<sourceObjName>ENFERMEIRA_TELEFONE</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TELEFONE" id="355DA4BC-F32B-D103-D7E9-CC6CA85D7BBA">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>ENFERMEIRA_TELEFONE</sourceObjSchema>
+<sourceObjName>TELEFONE</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ENFERMEIRA" id="86643378-8522-7D86-6E38-CF8A58BBE1B8">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>ENFERMEIRA_TELEFONE</sourceObjSchema>
+<sourceObjName>ID_ENFERMEIRA</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="554BAC7A-80C5-895F-8E8E-C69BFD8F17E9" referredColumn="1CC2516F-155C-2F51-EF70-2E4649DD7EB0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53F500E0-9F43-5731-C550-457EC194317A" schemaObject="90A1EF8F-805F-D46B-286A-6BC0D0321AEB" name="ENFERMEIRA_TELEFONE_PK">
+<sourceConnName>TrabalhoBD</sourceConnName>
+<sourceObjSchema>TRABALHO_BD2</sourceObjSchema>
+<sourceObjName>SYS_C007157</sourceObjName>
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="355DA4BC-F32B-D103-D7E9-CC6CA85D7BBA"/>
+<colUsage columnID="86643378-8522-7D86-6E38-CF8A58BBE1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="710BE806-0DF4-7E6C-C667-D1EC4925F370" name="SYS_C007158">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86643378-8522-7D86-6E38-CF8A58BBE1B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

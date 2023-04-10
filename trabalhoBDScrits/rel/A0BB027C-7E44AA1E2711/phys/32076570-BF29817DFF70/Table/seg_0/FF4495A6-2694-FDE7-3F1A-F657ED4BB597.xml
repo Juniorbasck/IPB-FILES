@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ENFERMEIRA" directorySegmentName="seg_0" id="FF4495A6-2694-FDE7-3F1A-F657ED4BB597">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<schemaObject>90A1EF8F-805F-D46B-286A-6BC0D0321AEB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A4D1FA43-CA32-5C87-66BE-EB27DFB0E754</segment>
+<tableSpace>7F2478CE-1808-EFA1-5918-E3955BDF5A96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_ENFERMEIRA" id="1CC2516F-155C-2F51-EF70-2E4649DD7EB0">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_INDENTIDADE" id="8F0C8EA2-66D7-26ED-02E0-F1001CDB5F8D">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="EB615B18-C4EB-731B-7CC7-EFD9E432AC57">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:54 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ENFERMEIRA_PK" id="74CDE7AA-D36E-6E70-E202-38A0B9EFF1A8">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:29:55 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<schemaObject>90A1EF8F-805F-D46B-286A-6BC0D0321AEB</schemaObject>
+<segment>DE33A9B9-5CE9-80B0-AA08-BDB7F2BA6DAE</segment>
+<tableSpace>7F2478CE-1808-EFA1-5918-E3955BDF5A96</tableSpace>
+<indexSegment>DE33A9B9-5CE9-80B0-AA08-BDB7F2BA6DAE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

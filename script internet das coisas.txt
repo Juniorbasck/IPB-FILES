@@ -1,0 +1,7 @@
+from(bucket:"noaa")
+    |> range(start: 2019-08-22T00:00:00Z, stop: 2019-08-25T00:00:00Z)
+    |> filter(fn: (r) => (r.location == "santa_monica" and r._measurement == "average_temperature"))
+    aggregateWindow(
+    every: 1h, 
+    fn:max
+    )

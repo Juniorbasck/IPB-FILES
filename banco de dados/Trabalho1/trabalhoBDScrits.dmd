@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="trabalhoBDScrits" id="86D3F217-2144-B9F1-FBCC-62BB297A2E11" version="3.5">
+<createdBy>SoulAfro 648</createdBy>
+<createdTime>2023-04-06 21:22:20 UTC</createdTime>
+<ownerDesignName>trabalhoBDScrits</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>86D3F217-2144-B9F1-FBCC-62BB297A2E11</designId>
+</OSDM_Design>
