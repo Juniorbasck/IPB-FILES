@@ -11,8 +11,11 @@ const getPostsAsync = async ondataRetrived => {
 
 
     }else{
-        //call api 
+        
+        const raw = await fetch('https://jsonplaceholder.typicode.com/posts');
+        const data = await raw.json();
 
+        posts = data;
     }
 
     ondataRetrived(posts);
