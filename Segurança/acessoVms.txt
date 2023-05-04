@@ -1,0 +1,4 @@
+Debian machina
+
+usario: adilson
+Senha: 123
