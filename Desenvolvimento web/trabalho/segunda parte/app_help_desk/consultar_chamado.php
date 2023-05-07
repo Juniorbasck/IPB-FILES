@@ -1,26 +1,3 @@
-<?php 
-    require_once "validador_acesso.php";
-?>
-<?php 
-    
-    // print_r($_SESSION);
-    //array chamados
-    $chamados = array();
-
-    //abrir arquivo.hd
-    $arquivo = fopen('../../../app_help_desk/arquivo.hd', 'r');
-
-    //enquato houver registros (linhas) a serem recuperados
-    while(!feof($arquivo)){
-      //linhas
-      $registro = fgets($arquivo);
-      $chamados[] = $registro;
-    }
-
-    //fechar o arquivo aberto 
-    fclose($arquivo);
-
-?>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -59,34 +36,6 @@
             </div>
             
             <div class="card-body">
-            
-            <?php 
-              foreach($chamados as $chamado){ 
-                
-            ?>
-                <?php 
-
-                    $chamado_dados = explode('#', $chamado);
-                    
-                  
-                      if($_SESSION['perfil_id'] == 2){
-                        //só vamos exibir o chamado, se ele foi criado pelo usuário
-                        if($_SESSION['id'] != $chamado_dados[0]){
-                          continue;
-                        }
-                      }
-
-                     
-
-                    if(count($chamado_dados) < 3){
-                      continue;
-                    }
-                 
-                    // echo '<pre>';
-                    // print_r($chamado_dados);
-                    // echo '<pre>';
-                    
-                ?>
                 <div class="card mb-3 bg-light">
                   <div class="card-body">
                     <h5 class="card-title"><?= $chamado_dados[1]  ?></h5>
@@ -94,13 +43,6 @@
                     <p class="card-text"><?= $chamado_dados[3]?></p>
                   </div>
                 </div>
-
-            <?php 
-              }
-              
-            ?>
-             
-
               <div class="row mt-5">
                 <div class="col-6">
                   <a href="home.php" class="btn btn-lg btn-warning btn-block" type="submit">Voltar</a>
