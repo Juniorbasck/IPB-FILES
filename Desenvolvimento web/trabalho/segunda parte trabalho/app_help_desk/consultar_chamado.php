@@ -16,15 +16,22 @@
 
   <body>
 
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        App Help Desk
-      </a>
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="logoff.php">Sair</a></li>
-      </ul>
-    </nav>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!-- logo --> 
+        <a class="navbar-brand" href="home.php">
+          <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          App Help Desk
+        </a>
+         <!--navegação --> 
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a href="" class="nav-link">Perfil</a>
+           </li>
+           <li class="nav-item">
+             <a href="" class="nav-link">Sair</a>
+           </li>
+         </ul>
+      </nav>
 
     <div class="container">    
       <div class="row">
@@ -38,9 +45,9 @@
             <div class="card-body">
                 <div class="card mb-3 bg-light">
                   <div class="card-body">
-                    <h5 class="card-title"><?= $chamado_dados[1]  ?></h5>
-                    <h6 class="card-subtitle mb-2 text-muted"><?= $chamado_dados[2]?></h6>
-                    <p class="card-text"><?= $chamado_dados[3]?></p>
+                    <h5 class="card-title"></h5>
+                    <h6 class="card-subtitle mb-2 text-muted"></h6>
+                    <p class="card-text"></p>
                   </div>
                 </div>
               <div class="row mt-5">
