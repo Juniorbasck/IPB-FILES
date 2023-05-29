@@ -1,0 +1,17 @@
+root mariadb: 123
+
+#TABELA DO WORDPRESS
+wordpresstable
+
+#USUARIO DB WORDPRESS
+wordpress_root - '1234'
+
+
+senha wordpress
+o7g!O5!pBUP6@z$l4)
+
+
+Usuario: adilson junior
+
+
+ssh adilson@localhost -p 8822
