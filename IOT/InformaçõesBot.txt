@@ -1,5 +1,20 @@
 Nome: BotIot
 
-Usernae: juniorNewBot20Boty
+Usernae: juniorNewBot20Bot
 
 Token: 6245330816:AAERupXENhsHVpn0DzWY5Agj75daf5pTi_g
+
+object
+chatId: 1548966445
+messageId: 10
+type: "message"
+content: "teste"
+date: 1685703429
+
+-----------------------------------------------------------------
+
+Nome: JuniorIot_2
+
+Username: JuniorIot_segundo_2_Bot 
+
+Token: 6269213685:AAEJyJW04BNzndDNJeuMqAr6zv8bRor4ML8
